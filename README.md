@@ -1,5 +1,7 @@
 
-# undefined
+# Auto Repo Test
+
+This is a test repository for automated tasks.
 
 ## Development
 
@@ -10,3 +12,7 @@ npm run dev
 ```
 
 This will start the development server using Vite.
+
+## Additional Information
+
+This project is used to test automated tasks in a GitHub repository.
