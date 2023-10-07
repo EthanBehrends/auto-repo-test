@@ -6,3 +6,8 @@ export function isEven(num) {
 export function isOdd(num) {
     return num % 2 !== 0;
 }
+
+
+function isDivisibleByThree(num) {
+	return num % 3 === 0;
+}
