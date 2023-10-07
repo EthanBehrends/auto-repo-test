@@ -12,3 +12,7 @@ npm run dev
 ```
 
 This will start the development server using Vite.
+
+## Additional Information
+
+This section was added automatically.
