@@ -10,3 +10,14 @@ export function isOdd(num: number) {
 export function isDivisibleByThree(num: number) {
 	return num % 3 === 0;
 }
+
+
+export function fibonacci(n: number): number {
+    if (n <= 0) {
+        return 0;
+    } else if (n === 1) {
+        return 1;
+    } else {
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+}
