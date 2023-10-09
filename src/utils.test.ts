@@ -1,4 +1,7 @@
 
+import { isEven, isOdd, isDivisibleByThree, fibonacci } from './utils';
+import { test, expect } from '@jest/globals';
+
 test('isEven', () => {
     expect(isEven(2)).toBe(true);
     expect(isEven(3)).toBe(false);
