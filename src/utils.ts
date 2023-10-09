@@ -13,11 +13,9 @@ export function isDivisibleByThree(num: number) {
 
 
 export function fibonacci(n: number): number {
-    if (n <= 0) {
-        return 0;
-    } else if (n === 1) {
-        return 1;
-    } else {
-        return fibonacci(n - 1) + fibonacci(n - 2);
+    const fib = [0, 1];
+    for (let i = 2; i <= n; i++) {
+        fib[i] = fib[i - 1] + fib[i - 2];
     }
+    return fib[n];
 }
