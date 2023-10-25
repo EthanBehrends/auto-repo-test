@@ -1,3 +1,3 @@
 export function logMessage() {
-		console.log("testing testing");
-	}
+	console.log("hello world, my name is Lindy!");
+}
