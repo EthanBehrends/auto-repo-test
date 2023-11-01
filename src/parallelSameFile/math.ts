@@ -5,3 +5,6 @@ export async function add(a: number, b: number) {
 export async function subtract(a: number, b: number) {
     return a - b
 }
+export async function multiply(a: number, b: number) {
+    return a * b
+}
